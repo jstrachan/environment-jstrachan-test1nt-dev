@@ -1,4 +1,6 @@
 jenkins-x-platform:
+  postinstalljob:
+    enabled: true
   PipelineSecrets:
     DockerConfig: |-
       {
